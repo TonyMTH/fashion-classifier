@@ -1,6 +1,6 @@
 # Fashion classifier
 
-As a large cloth dealing shop with hundreds of customers going in and out each hour, trying each item and droping them casualy is inevitable. Having human do the dirty job of having them properly sorted could be challenging. Image having a robert do this job. To achieve this, you need a system that directs the robert on what to do and this is where our app comes handy. 
+As a large cloth dealing shop with hundreds of customers going in and out each hour, trying each item and droping them casualy is inevitable. Having human do the dirty job of having them properly sorted could be challenging. Imagine having robots do this job. To achieve this, you need a system that directs robots on what to do and this is where our app comes handy. 
 
 This app uses a well trained Deep Neural Networks to classify clothing items into categories. There are 10 classes which are:
 1. T-shirt/top
