@@ -20,19 +20,13 @@ st.sidebar.write("""
 # Harsha""")
 
 model_pth = 'data/best_model.pt'
-path = None
-predicted = None
-prob = None
-
 
 uploaded_file = st.file_uploader('Upload Image File')
 if uploaded_file is not None:
     image = Image.open(uploaded_file).convert('L')
     st.image(image, channels="BGR", width=100)
     prob, predicted = ClassifyWear(model_pth).predict(uploaded_file)
-
-
-if predicted is not None:
     st.write(f'The image passed is {predicted} with a probability of {prob}%')
-
+else:
+    st.write(f'Please upload a file')
 
