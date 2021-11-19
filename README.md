@@ -16,21 +16,12 @@ This app uses a well trained Deep Neural Networks to classify clothing items int
 
 The neural networks was trained with pytorch and the datasets is the [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist/blob/master/README.md).
 
-## Installation
 
-To install fashion-classifier, use the package manager [pip](https://pip.pypa.io/en/stable/).
-
-```bash
-pip install fashion_classifier
-```
 
 ## Usage
 
-```python
-import fashion_classifier as fc
-
-# returns the probability and class of the image passed
-prob, class = fc('data/cloth1.png')
+```
+python run.py
 
 ```
 
